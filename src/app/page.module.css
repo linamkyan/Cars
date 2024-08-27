@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  align-items: flex-start;
   min-height: 100vh;
+  background-color: #f2f2f296;
 }
 
 .description {

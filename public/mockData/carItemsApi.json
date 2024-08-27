@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Toyota Corolla",
+            "image": "/images/toyota-corolla-2019-white.png",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "color": "White",
+            "price": 20000,
+            "year": 2019,
+            "engineType": "Бензиновый",
+            "transmission": "Автоматическая"
+        },
+        {
+            "id": 2,
+            "title": "Tesla Model S",
+            "image": "/images/2020-tesla-model-sp.png",
+            "brand": "Tesla",
+            "model": "Model S",
+            "color": "Red",
+            "price": 80000,
+            "year": 2021,
+            "engineType": "Электрический",
+            "range": 500
+        },
+        {
+            "id": 3,
+            "title": "Honda Civic",
+            "image": "/images/honda-civic-2020-blue.png",
+            "brand": "Honda",
+            "model": "Civic",
+            "color": "Blue",
+            "price": 22000,
+            "year": 2020,
+            "engineType": "Бензиновый",
+            "transmission": "Автоматическая"
+        },
+        {
+            "id": 4,
+            "title": "BMW 3 Series",
+            "image": "/images/bmw-3-series-2021-black.png",
+            "brand": "BMW",
+            "model": "3 Series",
+            "color": "Black",
+            "price": 45000,
+            "year": 2021,
+            "engineType": "Дизельный",
+            "transmission": "Автоматическая"
+        },
+        {
+            "id": 5,
+            "title": "Audi A4",
+            "image": "/images/audi-a4-2022-silver.png",
+            "brand": "Audi",
+            "model": "A4",
+            "color": "Silver",
+            "price": 50000,
+            "year": 2022,
+            "engineType": "Бензиновый",
+            "transmission": "Автоматическая"
+        },
+        {
+            "id": 6,
+            "title": "Ford Mustang",
+            "image": "/images/ford-mustang-2021-yellow.png",
+            "brand": "Ford",
+            "model": "Mustang",
+            "color": "Yellow",
+            "price": 55000,
+            "year": 2021,
+            "engineType": "Бензиновый",
+            "transmission": "Механическая"
+        },
+        {
+            "id": 7,
+            "title": "Chevrolet Camaro",
+            "image": "/images/chevrolet-camaro-2020-orange.png",
+            "brand": "Chevrolet",
+            "model": "Camaro",
+            "color": "Orange",
+            "price": 60000,
+            "year": 2020,
+            "engineType": "Бензиновый",
+            "transmission": "Механическая"
+        }
+    ]
+}
