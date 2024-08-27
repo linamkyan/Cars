@@ -1,6 +1,6 @@
 'use client'
 
-import { PageContainer, ProductHeader, ProductImage, DetailSection, DetailTitle, DetailText } from './ProductPage.styles';
+import { PageContainer, ProductHeader, ProductImage, DetailSection, DetailTitle, DetailText } from './page.styles';
 
 interface ProductType {
     id: number;
@@ -16,6 +16,10 @@ interface ProductType {
     range?: number;
 }
 
+interface Params {
+    id: string;
+}
+
 async function getProduct(id: string): Promise<ProductType | null> {
     try {
         const res = await fetch('http://localhost:3000/mockData/carItemsApi.json');
@@ -29,7 +33,7 @@ async function getProduct(id: string): Promise<ProductType | null> {
     }
 }
 
-export default async function ProductPage({ params }) {
+export default async function ProductPage({ params }: { params: Params }) {
     const product = await getProduct(params.id);
 
     return product ? (
